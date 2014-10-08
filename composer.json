@@ -1,0 +1,29 @@
+{
+    "name":         "martindines/magento-config-interface",
+    "description":  "",
+    "keywords":     [],
+    "homepage":     "",
+    "type":         "",
+    "license":      "",
+    "authors":      [
+        {
+            "name":      "Martin Dines",
+            "email":     "martin.dines@live.co.uk",
+            "homepage":  "http://martindines.co.uk"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/console":          "~2.5",
+        "symfony/yaml":             "~2.5"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "MartinDines": "src/"
+        }
+    },
+
+    "bin": ["bin/configinterface"]
+}
